@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dalhia</title>
+    <style>
+        .container{
+            background-color:#FDF0F5;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #AD1457;
+            box-shadow: 0px 0px 0px 2px white ;
+            border-radius: 25px;
+            background-color:#ffdbe9;
+        }
+        .header img{
+            object-fit: cover;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+        }
+        .imgdetails{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgdetails h1{
+            color:#AD1457;
+           font-family: 'Poppins', sans-serif;
+        }
+        .imgdetails p{
+            color:#6D4C5B;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+        }
+        .slidingtext{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#AD1457;
+            font-family: 'Poppins', sans-serif;
+            color:white;
+            height: 70px;
+            margin-top:20px;
+            text-align: center;
+        }
+        .description{
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            height: 200px;
+            gap:40px;
+        }
+        .des{
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+            border:1px solid #AD1457;
+            box-shadow: 0px 0px 0px 1px white;
+            color:#6D4C5B;
+            font-family:'Poppins', sans-serif ;
+            height: 150px;
+            width:200px;
+            border-radius: 20px;
+            background-color:#ffdbe9;
+        }
+        .des h5{
+            font-size: 18px;
+            color:#AD1457;
+        }
+
+        .des,p{
+            text-align: center;
+             color:#6D4C5B
+        }
+        .des:hover{
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+        .similarflowers{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flower1{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            height:370px;
+            width:400px;
+            color:#2E7D32;
+            font-family:'Poppins', sans-serif ;
+            margin: 10px;
+            border: 3px solid #AD1457;
+            border-radius: 20px;
+            background-color:#ffdbe9;
+            transition:0.3s;
+        }
+        .flower1:hover{
+           transform:scale(1.05);
+        }
+        .flower1 img{
+           border-top-left-radius: 20px;
+           border-top-right-radius: 20px;
+           object-fit: cover;
+        }
+        .flowerdes{
+            text-align: center;
+            padding: 10px;
+           
+        }
+        .flowerdes h1{
+            color: #AD1457
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="image">
+                <img src="https://www.shutterstock.com/image-photo/pink-yellow-decorative-ball-dahlia-600nw-2686822489.jpg" height="300px"  width="700px" alt="dalhia">
+            </div>
+            <div class=" imgdetails">
+                <h1>Dalhia</h1>
+                <p>A dahlia is a beautiful flower known for its round shape and many layered petals.
+                   It comes in bright colors like pink, red, yellow, purple, and white.
+                   Dahlias grow in gardens and are popular for their attractive and colorful appearance.
+                   They are often used for decoration and flower arrangements.
+                   This flower symbolizes beauty, elegance, and creativity. 🌸</p>
+            </div>
+        </div>
+        <div class="slidingtext">
+            <marquee>
+                <h1><img src="https://static.vecteezy.com/system/resources/previews/014/635/146/non_2x/dahlia-flower-transparent-free-png.png" height="40px" width="40px">Dalhia</h1>
+            </marquee>
+        </div>
+        <div class="description">
+            <div class="des">
+                <h5>Bright Colors</h5>
+                <p> Dahlias come in many colors like pink, red, yellow, purple, and white.</p>
+            </div>
+            <div class="des">
+                <h5>Layered Petal</h5>
+                <p>The flower has many petals arranged in a round pattern..</p>
+            </div>
+            <div class="des">
+                <h5>Large size</h5>
+                <p> Some dahlias grow very big and look very attractive.</p>
+            </div>
+            <div class="des">
+                <h5>Garden Flower</h5>
+                <p>Dahlias are commonly grown in gardens for decoration.</p>
+            </div>
+            <div class="des">
+                <h5>symbol Ellegance</h5>
+                <p>The flower represents beauty, strength, and elegance.</p>
+            </div>
+        </div>
+        <div class="similarflowers">
+            <div class="flower1">
+                <a href="https://www.google.com/search?sca_esv=de893e36d6b67b5c&sxsrf=ANbL-n4lVd4yGPx9DdPQD4YNLYj7NNNiSA:1773142516307&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-5-bUj3iBl-UxHsANYwOkWWQqZAJJdwuRaSoLHfELMHATKK1pbO_OOOJtiQ_Hxe6g6q4p7U3zzaxAaoF0ALYcn9XREC2n2Qr8tseohdeRLgp9NzjuGQXNwpFS2ILDxM2Zj2uS_3Jb7RZ8IxzScrABHQbhiQ2A&q=marigold+images&sa=X&sqi=2&ved=2ahUKEwiE4sfOnpWTAxVvcmwGHaonPRIQtKgLegQIERAB&biw=1536&bih=695&dpr=1.25"><img src="https://thumbs.dreamstime.com/b/captivating-marigold-flower-png-feast-eyes-bursting-vibrant-color-exquisite-detail-sharp-close-up-view-376072503.jpg" height="200px" width="400px" alt="Lilly"></a>
+                <div class="flowerdes">
+                    <h1>MariGold</h1>
+                    <p>Bright yellow or orange flower commonly used for decoration and festivals</p>
+                </div>
+                
+            </div>
+            <div class="flower1">
+                <a href="https://www.google.com/search?sca_esv=de893e36d6b67b5c&sxsrf=ANbL-n4DJgBEzKfjUcAqmkQIGfpcuL6skg:1773142598070&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-5-bUj3iBl-UxHsANYwOkWWQqZAJJdwuRaSoLHfELMHATKK1pbO_OOOJtiQ_Hxe6g6q4p7U3zzaxAaoF0ALYcn9XREC2n2Qr8tseohdeRLgp9NzjuGQXNwpFS2ILDxM2Zj2uS_3Jb7RZ8IxzScrABHQbhiQ2A&q=jasmine+images&sa=X&sqi=2&ved=2ahUKEwjPuMb1npWTAxVqUGwGHSg0EUsQtKgLegQIEhAB&biw=1536&bih=695&dpr=1.25"><img src="https://m.media-amazon.com/images/I/71W6eujtHsL._AC_UF1000,1000_QL80_.jpg" height="200px" width="400px" alt="tulips"></a>
+                <div class="flowerdes">
+                    <h1>Jasmine</h1>
+                    <p>A jasmine is a small white flower known for its sweet fragrance. </p>
+                </div>
+            </div>
+            <div class="flower1">
+                <a href="https://www.google.com/search?q=chrysanthemum+images&oq=crysanthe&gs_lcrp=EgZjaHJvbWUqDQgCEAAYkQIYgAQYigUyBggAEEUYOTIQCAEQLhiRAhixAxiABBiKBTINCAIQABiRAhiABBiKBTINCAMQABiRAhiABBiKBTIOCAQQABgKGAsYsQMYgAQyDggFEAAYChgLGLEDGIAEMg4IBhAuGAoYCxixAxiABDIOCAcQLhgKGAsYsQMYgAQyCwgIEAAYChgLGIAE0gEINDAyMmowajeoAgiwAgHxBbA6pYDh4Rcs"><img src="https://rukminim2.flixcart.com/image/480/640/xif0q/plant-seed/u/3/z/40-chrysanthemum-flower-seeds-c-372-kanaya-original-imaghmw9tyyxhgsk.jpeg?q=20" height="200px" width="400px" alt="Rose"></a>
+                <div class="flowerdes">
+                    <h1>Crysanthemum</h1>
+                    <p>Colorful flower with many thin petals, grown in gardens and used for decoration.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
